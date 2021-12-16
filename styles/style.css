@@ -19,7 +19,25 @@ h2 {
 p {
   font-family: "Hind Madurai", sans-serif;
   font-weight: 700px;
-  font-size: 50px;
+  font-size: 45px;
   color: #fff;
+}
+
+.profile-pic {
+  border: solid 10px;
+  border-color: #dfcc74;
+}
+
+.contact-section {
   text-align: center;
+}
+
+.button-main {
+  background: #cb904d;
+  border-radius: 50px;
+  color: white;
+  padding: 8px 60px 8px 60px;
+  line-height: 40px;
+  font-size: 30px;
+  font-family: "ABeeZee", sans-serif;
 }
