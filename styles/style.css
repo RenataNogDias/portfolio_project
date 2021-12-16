@@ -2,6 +2,8 @@
   --main-color: #c3e991;
   --border-color: #dfcc74;
   --button-color: #cb904d;
+  --heading-btn-font-family: "ABeeZee", sans-serif;
+  --main-font-family: "Hind Madurai", sans-serif;
 }
 
 body {
@@ -9,21 +11,21 @@ body {
 }
 
 h1 {
-  font-family: "ABeeZee", sans-serif;
+  font-family: var(--heading-btn-font-family);
   font-weight: 400px;
   font-size: 70px;
   color: var(--main-color);
 }
 
 h2 {
-  font-family: "ABeeZee", sans-serif;
+  font-family: var(--heading-btn-font-family);
   font-weight: 400px;
   font-size: 35px;
   color: var(--main-color);
 }
 
 p {
-  font-family: "Hind Madurai", sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700px;
   font-size: 45px;
   color: #fff;
@@ -45,5 +47,5 @@ p {
   padding: 8px 60px 8px 60px;
   line-height: 40px;
   font-size: 30px;
-  font-family: "ABeeZee", sans-serif;
+  font-family: var(--heading-btn-font-family);
 }
