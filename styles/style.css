@@ -5,6 +5,14 @@ body {
 h1 {
   font-family: "ABeeZee", sans-serif;
   font-weight: 400px;
+  font-size: 70px;
+  color: #c3e991;
+}
+
+h2 {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400px;
+  font-size: 35px;
   color: #c3e991;
 }
 
