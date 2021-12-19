@@ -29,10 +29,10 @@ p {
   font-weight: 700px;
   font-size: 30px;
   color: #fff;
-  margin: 50px;
+  margin: 40px 0px;
 }
 
-.profile-pic {
+.picture-style {
   border: solid 10px;
   border-color: var(--border-color);
 }
@@ -58,6 +58,15 @@ p {
   border-radius: 50%;
   color: var(--button-color);
   background: white;
+}
+
+.about-me {
+  font-size: 22px;
+}
+
+.check-out-projects {
+  text-align: center;
+  margin: 50px;
 }
 
 @media (max-width: 576px) {
