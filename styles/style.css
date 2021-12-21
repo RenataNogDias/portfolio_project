@@ -8,7 +8,7 @@
 
 body {
   background-color: #51a3a3;
-  margin: 20px 60px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -33,14 +33,27 @@ p {
   margin: 15px 0px;
 }
 
+.navbar-style {
+  background-color: var(--border-color);
+  font-family: var(--heading-btn-font-family);
+}
+
+.nav-link {
+  color: #495867;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.active {
+  color: black;
+}
+
 .picture-style {
   border: solid 10px;
   border-color: var(--border-color);
-}
-
-.contact-section {
-  text-align: center;
-  color: white;
 }
 
 .button-main {
@@ -55,7 +68,6 @@ p {
 
 .social-media-icon {
   font-size: 30px;
-
   padding: 15px;
   border-radius: 50%;
   color: var(--button-color);
@@ -69,6 +81,15 @@ p {
 .check-out-projects {
   text-align: center;
   margin: 50px;
+}
+
+.my-work-header {
+  margin: 20px 50px;
+}
+
+#contact-section {
+  text-align: center;
+  color: white;
 }
 
 @media (max-width: 768px) {
