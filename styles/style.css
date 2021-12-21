@@ -28,9 +28,9 @@ h2 {
 p {
   font-family: var(--main-font-family);
   font-weight: 700px;
-  font-size: 25px;
+  font-size: 30px;
   color: #fff;
-  margin: 40px 0px;
+  margin: 15px 0px;
 }
 
 .picture-style {
@@ -40,6 +40,7 @@ p {
 
 .contact-section {
   text-align: center;
+  color: white;
 }
 
 .button-main {
