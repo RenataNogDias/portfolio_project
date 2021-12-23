@@ -14,14 +14,12 @@ body {
 
 h1 {
   font-family: var(--heading-btn-font-family);
-  font-weight: 400px;
   font-size: 70px;
   color: var(--main-color);
 }
 
 h2 {
   font-family: var(--heading-btn-font-family);
-  font-weight: 400px;
   font-size: 35px;
   color: var(--main-color);
 }
@@ -36,6 +34,7 @@ p {
 
 .navbar {
   background: var(--border-color);
+  font-family: var(--heading-btn-font-family);
 }
 
 .logo {
