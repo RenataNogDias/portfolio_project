@@ -65,6 +65,11 @@ p {
   font-family: var(--heading-btn-font-family);
 }
 
+#button-say-hi {
+  background: white;
+  color: var(--button-color);
+}
+
 .button-main {
   background: var(--button-color);
   border-radius: 50px;
@@ -75,12 +80,22 @@ p {
   font-family: var(--heading-btn-font-family);
 }
 
+.button-main:hover {
+  background: white;
+  color: var(--button-color);
+}
+
 .social-media-icon {
   font-size: 30px;
   padding: 15px;
   border-radius: 50%;
   color: var(--button-color);
   background: white;
+}
+
+.social-media-icon:hover {
+  color: white;
+  background: var(--button-color);
 }
 
 .about-me {
