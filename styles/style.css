@@ -2,13 +2,14 @@
   --main-color: #c3e991;
   --border-color: #dfcc74;
   --button-color: #cb904d;
+  --dark-color: 495867;
   --heading-btn-font-family: "ABeeZee", sans-serif;
   --main-font-family: "Hind Madurai", sans-serif;
 }
 
 body {
   background-color: #51a3a3;
-  padding-top: 50px;
+  padding: 50px 0px;
 }
 
 h1 {
@@ -33,22 +34,21 @@ p {
   margin: 15px 0px;
 }
 
-.navbar-style {
-  background-color: var(--border-color);
-  font-family: var(--heading-btn-font-family);
+.navbar {
+  background: var(--border-color);
+}
+
+.logo {
+  max-width: 35px;
+  margin: 0px 20px;
 }
 
 .nav-link {
-  color: #495867;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  color: black;
+  padding: 0px 25px !important;
 }
 
 .active {
-  color: black;
+  color: var(--dark-color) !important;
 }
 
 .picture-style {
