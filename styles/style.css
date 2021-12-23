@@ -9,7 +9,7 @@
 
 body {
   background-color: #51a3a3;
-  padding: 50px 0px;
+  padding: 50px 0px 20px 0px;
 }
 
 h1 {
@@ -96,6 +96,15 @@ p {
   margin: 30px 50px;
 }
 
+.foot-note {
+  font-size: 18px;
+  text-align: center;
+}
+
+.foot-note a {
+  color: var(--border-color);
+}
+
 #contact-section {
   text-align: center;
   color: white;
@@ -147,5 +156,10 @@ p {
 
   .project-btns {
     text-align: center;
+  }
+
+  .foot-note {
+    margin: 0px 10px;
+    font-size: 15px;
   }
 }
