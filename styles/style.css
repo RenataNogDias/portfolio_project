@@ -56,6 +56,16 @@ p {
   border-color: var(--border-color);
 }
 
+#button-say-hi {
+  background: var(--button-color);
+  border-radius: 50px;
+  color: white;
+  padding: 10px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  font-family: var(--heading-btn-font-family);
+}
+
 .button-main {
   background: var(--button-color);
   border-radius: 50px;
@@ -84,7 +94,7 @@ p {
 }
 
 .my-work-header {
-  margin: 20px 50px;
+  margin: 30px 50px;
 }
 
 #contact-section {
@@ -108,10 +118,16 @@ p {
     font-size: 20px;
   }
 
+  #button-say-hi {
+    padding: 10px 25px;
+    line-height: 30px;
+    font-size: 25px;
+  }
+
   .button-main {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 20px;
-    padding: 5px 15px;
+    padding: 15px 25px;
   }
 
   .my-work-container {
