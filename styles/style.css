@@ -65,7 +65,7 @@ p {
   font-family: var(--heading-btn-font-family);
 }
 
-#button-say-hi {
+#button-say-hi:hover {
   background: white;
   color: var(--button-color);
 }
@@ -91,6 +91,10 @@ p {
   border-radius: 50%;
   color: var(--button-color);
   background: white;
+}
+
+#linkedin-icon {
+  padding: 15px 17px;
 }
 
 .social-media-icon:hover {
