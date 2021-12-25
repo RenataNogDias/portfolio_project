@@ -9,7 +9,7 @@
 
 body {
   background-color: #51a3a3;
-  padding: 50px 0px 20px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 h1 {
@@ -173,8 +173,8 @@ p {
     margin-top: 10px;
   }
 
-  .project-btns {
-    text-align: center;
+  .source-code-btn {
+    padding: 0px 30px;
   }
 
   .foot-note {
